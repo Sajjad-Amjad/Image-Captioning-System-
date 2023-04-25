@@ -1,0 +1,11 @@
+Note : Please run the ipynb file for almost 50 epochs by opening ipynb file from the training folder in google colab and then copy the saved model in our directory.
+Beacuse i have tested the model in the form of web app for only 1 epoch trained model because i lost 50 trained epoch model. Otherwise it would not giv accurate results.
+
+SETUP:
+1- Extract the File
+--put the model you trained for 50 epoch in the directory it is already there of 1 epcoh replace it with the same name
+2- Make sure you have python 3.9 installed
+3 - run command in the extracted directory "pip install -r requirements.txt". it will take time
+4 - and then run this command "pip install en_core_web_sm-2.3.1.tar.gz"
+5 - run this command to test your web app "python app.py"
+6 - download the dataset from this link and put it into the root working directory and in training directory. Dataset:: https://www.kaggle.com/datasets/adityajn105/flickr8k
